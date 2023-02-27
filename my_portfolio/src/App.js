@@ -1,5 +1,20 @@
+import IntroHeader from "./components/header";
+import AboutMe from "./components/aboutme";
+import MySkills from "./components/mySkills";
+import MyProject from "./components/myProjects";
+import Footer from "./components/footer";
+import { Fragment } from "react";
+
 function App() {
-  return <h1>My Portfolio</h1>;
+  return (
+    <Fragment>
+      <IntroHeader></IntroHeader>
+      <AboutMe />
+      <MySkills />
+      <MyProject />
+      <Footer />
+    </Fragment>
+  );
 }
 
 export default App;
