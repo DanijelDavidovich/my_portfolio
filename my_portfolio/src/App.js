@@ -1,5 +1,5 @@
-import IntroHeader from "./components/header";
-import AboutMe from "./components/aboutme";
+import IntroHeader from "./components/header/header";
+import AboutMe from "./aboutme/aboutme";
 import MySkills from "./components/mySkills";
 import MyProject from "./components/myProjects";
 import Footer from "./components/footer";
