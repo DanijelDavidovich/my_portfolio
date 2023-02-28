@@ -8,6 +8,7 @@
 }
 
 .headding {
+  background: #ffffff00;
   color: #74c1fc6b;
   font-size: 4.6rem;
   position: absolute;
@@ -42,6 +43,7 @@
 }
 
 .subheadding {
+  background: #ffffff00;
   color: #fff;
   font-size: 3.6rem;
   opacity: 0;
@@ -54,7 +56,7 @@
   left: 10%;
   background: #74c1fc1c;
   /* opacity: 10%; */
-  padding: 0.5rem 4rem 0.8rem 4rem;
+  padding: 0.5rem 4.4rem 0.8rem 4.4rem;
   border-radius: 15px;
   opacity: 0;
   transform: translateX(-100%);
@@ -66,4 +68,6 @@
 .img {
   width: 100%;
   /* object-position: center; */
+  padding-bottom: 0.5rem;
+  background-color: #ffffff0f;
 }

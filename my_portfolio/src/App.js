@@ -1,6 +1,6 @@
 import IntroHeader from "./components/header/header";
-import AboutMe from "./aboutme/aboutme";
-import MySkills from "./components/mySkills";
+import AboutMe from "./components/aboutme/aboutme";
+import MySkills from "./components/mySkills/mySkills";
 import MyProject from "./components/myProjects";
 import Footer from "./components/footer";
 import { Fragment } from "react";

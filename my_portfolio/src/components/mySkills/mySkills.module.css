@@ -1,0 +1,47 @@
+.container {
+  padding: 0.5rem 0;
+  background-color: #ffffff0f;
+  position: relative;
+}
+
+.img {
+  background-image: linear-gradient(to right bottom, #00000086, #ffffff0f),
+    url("../images/skillWallpaper.jpg");
+  width: 100%;
+  background-size: cover;
+  padding: 6rem 0;
+}
+
+.positions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* align-items: center; */
+  justify-items: center;
+  margin-right: 8rem;
+}
+
+.logo {
+  position: absolute;
+  width: 10rem;
+  top: 12%;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: #74c1fc1c;
+}
+.logoJS {
+  position: absolute;
+  width: 9.5rem;
+  top: 14%;
+  /* border-radius: 50%; */
+  padding: 1rem;
+  background-color: #74c1fc1c;
+}
+
+.logoR {
+  position: absolute;
+  width: 9.5rem;
+  top: 14%;
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: #74c1fc1c;
+}

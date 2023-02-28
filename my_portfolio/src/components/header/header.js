@@ -1,4 +1,5 @@
 import headerImage from "../images/header-image.jpg";
+
 import classes from "./header.module.css";
 import { useState, useEffect } from "react";
 
@@ -22,7 +23,7 @@ const IntroHeader = () => {
       <div className={classes.container}>
         <img src={headerImage} alt="Header photo" className={classes.img} />
         <div>
-          <h1 className={classes.headding}>Hallo, my name is Daniel</h1>
+          <h1 className={classes.headding}>Hallo, my name is Danijel</h1>
         </div>
         <div className={classes.subheadding_block}>
           <div className={classes.subheadding_container}>
