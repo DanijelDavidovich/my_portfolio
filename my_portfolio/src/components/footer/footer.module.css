@@ -1,0 +1,94 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  border-top: 5px solid #ffffff0f;
+  background-color: #91a7ff;
+  padding: 1.5rem 0;
+}
+
+.logo {
+  background-color: #91a7ff;
+  padding-right: 20rem;
+  margin-bottom: -3px;
+  height: 2.5rem;
+}
+
+.copyright {
+  background-color: #91a7ff;
+  color: #0b3840;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.signeture {
+  background-color: #91a7ff;
+}
+
+.contact_me_content {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem;
+  background-color: #91a7ff;
+}
+
+.contact {
+  color: #0b3840;
+  background-color: #91a7ff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 1.3rem 0;
+}
+
+.contacts {
+  background-color: #91a7ff;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 0;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.icons_text {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #91a7ff;
+  text-decoration: none;
+}
+
+.icons {
+  font-size: 2rem;
+  background-color: #91a7ff;
+  color: #0b3840;
+}
+
+.text {
+  background-color: #91a7ff;
+  color: #0b3840;
+  font-size: 1.2rem;
+}
+
+.icons_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #91a7ff;
+}
+
+.icon_2 {
+  font-size: 4rem;
+  background-color: #91a7ff;
+}
+a:visited,
+a:link {
+  background-color: #91a7ff;
+  text-decoration: none;
+  color: #0b3840;
+}
+
+a:hover,
+a:active {
+  color: #0b3840e2;
+}

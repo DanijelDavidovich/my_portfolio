@@ -14,7 +14,7 @@ const AboutMe = () => {
         </p>
       </div>
       <div className={classes.imgContainer}>
-        <img src={myImage} className={classes.img} />
+        <img src={myImage} alt="my photo" className={classes.img} />
       </div>
     </div>
   );
