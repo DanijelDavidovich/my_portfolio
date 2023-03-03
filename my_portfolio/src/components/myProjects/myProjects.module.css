@@ -29,10 +29,12 @@
   border-radius: 5%;
   background-color: #dedddd;
   overflow: hidden;
+  height: min-content;
+  width: 36rem;
 }
 
 .img {
-  width: 100%;
+  width: 36rem;
   border-top: 5rem;
 }
 
@@ -62,22 +64,36 @@
 }
 
 .button {
+  display: flex;
+  gap: 1rem;
   padding: 1rem 3.5rem;
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.1rem;
   border-radius: 10rem;
+  border: none;
 }
 
 .button:visited,
 .button:link {
   background-color: #0b3840;
+  color: #fff;
 }
 
 .button:hover,
 .button:active {
   background-color: #0b3840e2;
+  color: #fff;
+}
+.buttonText {
+  background-color: #0b3840e2;
+}
+.gitIcon {
+  background-color: #0b3840e2;
+  text-align: center;
+  font-size: 1.1rem;
+  padding-right: 0.2rem;
 }
 
 .downButton {
@@ -87,6 +103,7 @@
   font-size: 1.1rem;
   color: #0b3840;
   padding: 1rem 0;
+  border: none;
 }
 
 /* .downButton:visited,
