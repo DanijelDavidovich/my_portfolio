@@ -31,6 +31,8 @@
   overflow: hidden;
   height: min-content;
   width: 36rem;
+  /* opacity: 0;
+  animation: ani2 1s ease-out 1s forwards; */
 }
 
 .img {
@@ -113,3 +115,39 @@
 .downButton:active {
   background-color: #94ae21ab;
 }
+
+/* @keyframes ani2 {
+  100% {
+    opacity: 1;
+  }
+} */
+
+/* @keyframes slideLeft {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
+
+/* .animationRight {
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slide 1s ease-out 1.5s forwards;
+}
+
+.animationLeft {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide 1s ease-out 1s forwards;
+}
+
+@keyframes slide {
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+} */
