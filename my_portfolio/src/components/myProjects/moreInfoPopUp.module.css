@@ -1,0 +1,55 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color: #000000b1;
+}
+
+.popUp {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 50rem;
+  border: solid 7px #0b3840;
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1000;
+}
+
+.header {
+  background-color: transparent;
+  color: #0b3840;
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+
+.text {
+  background-color: transparent;
+  color: #0b3840;
+  padding: 1rem 5rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.button {
+  width: 100%;
+  padding: 0.8rem 0;
+  background-color: #94ae21;
+  border: none;
+  font-size: 1.1rem;
+  color: #0b3840;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  background-color: #94ae21ab;
+}
