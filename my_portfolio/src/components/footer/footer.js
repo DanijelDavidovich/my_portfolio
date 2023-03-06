@@ -26,6 +26,7 @@ const Footer = () => {
             <a
               href="https://www.facebook.com/profile.php?id=100004350573540"
               className={classes.icons_text}
+              target="_blank"
             >
               <FaFacebookSquare className={classes.icons} />
               <p className={classes.text}>Facebook</p>
@@ -49,12 +50,14 @@ const Footer = () => {
         <a
           className={classes.links}
           href="https://www.linkedin.com/in/danijel-davidović-0a84b1228/"
+          target="_blank"
         >
           <FaLinkedin className={classes.icon_2} />
         </a>
         <a
           className={classes.links}
           href="https://github.com/DanijelDavidovich"
+          target="_blank"
         >
           <FaGithub className={classes.icon_2} />
         </a>

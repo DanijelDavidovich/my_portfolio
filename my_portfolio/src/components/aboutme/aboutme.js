@@ -7,10 +7,13 @@ const AboutMe = () => {
       <div className={classes.text}>
         <h1>About me</h1>
         <p>
-          Motivated and dedicated person who wants consistently learn and
-          constantly perfecting yourself.Ready for new challenges and achieving
-          a new success.Highly organized,team oriented and skilled in
-          communication and collaboration
+          I am a beginner to junior front-end developer with about one year of
+          experience. I have taken several advanced courses on HTML, CSS,
+          JavaScript and ReactJS and related projects. Also, based on what I
+          learned, I did several independent projects. I'm motivated and
+          dedicated person who wants constantly learn and constantly perfecting
+          myself in this field, ready for new challenges. Currently, I am
+          looking for an internship or job to hone and improve my skills.
         </p>
       </div>
       <div className={classes.imgContainer}>

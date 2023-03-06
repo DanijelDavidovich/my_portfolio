@@ -33,7 +33,7 @@ const MyProject = (props) => {
           <a className={classes.button} href={props.linkLive} target="_blank">
             Live
           </a>
-          <a className={classes.button}>Code</a>
+          <a className={classes.button} target="_blank">Code</a>
         </div>
         <button className={classes.downButton} onClick={showCartHandler}>
           More details. . .

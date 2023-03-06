@@ -3,7 +3,7 @@ import classes from "./moreInfoPopUp.module.css";
 const MoreInfoPouUp = (props) => {
   return (
     <>
-      <div className={classes.overlay} />
+      <div className={classes.overlay} onClick={props.onClose} />
       <div
         data-aos="fade-in"
         data-aos-duration="1000"
